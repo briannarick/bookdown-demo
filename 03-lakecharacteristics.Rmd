@@ -12,7 +12,11 @@ Using a combination of DEMs and high-resolution satellite imagery (i.e., Maxar T
 
 * _Bedrock-dammed lakes_: frequently located in cirques with minimal remaining glacial ice, or in other overdeepenings created from glacial erosion (Otto, 2019).
 
-![](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/f03.jpg)
+<center>
+
+![Examples of typical lake behavior for each dam type (moraine (a-b), ice (c-d), supraglacial (def), and bedrock(g-h)), and changes in lake area from 1984–1988 (left; red) and 2016–2019 (right; blue). False color images using Landsat bands for shortwave infrared (SWIR), near infrared (NIR), and red. ](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/f03.jpg){width=75%}
+
+</center>
 
 ## Topological positions
 

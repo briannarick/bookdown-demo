@@ -2,6 +2,8 @@
 
 Explore the dataset interactively in the following map, or access a full-sized version [here.](https://briannarick.github.io/dataviz/AKmap_GLOF.html) Hover over any lake to discover the area, area change, dam type, lake position, and the associated glacier. 
 
+Data is available for download at https://arcticdata.io/catalog/view/doi:10.18739/A2MK6591G
+
 ```{r setup, include=FALSE}
 library(raster)
 library(leaflet)
@@ -382,6 +384,6 @@ AKmap <- leaflet(lakesshp) %>%
   
 ```
 
-```{r mapOut, out.width = '100%'}
+```{r mapOut, out.width = '100%', echo=FALSE}
 AKmap
 ```
