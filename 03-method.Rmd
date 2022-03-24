@@ -4,7 +4,11 @@
 
 The overall number of lakes in the Alaska region increased from 484 in 1984–1988 to 667 in 2016–2019, and total area grew from 815.5 km^2^ in 1984–1988 to 1298.5 km^2^ in 2016–2019 (Fig. 4). The distribution of lakes of each dam type has remained fairly consistent over time, with 40–44% of all lakes being moraine-dammed, 26–30% bedrock-dammed, 9–14% ice-dammed, and 16–23% supraglacial. However, the contribution of each dam type to the total lake area has changed. The contribution of ice-dammed lakes decreased (16% in 1984–1988 to 6% in 2016–2019), while moraine-dammed lakes increased (67% in 1984–1988 to 79% in 2016–2019). While supraglacial lakes have increased in number over time, their contribution to total lake area has remained consistent around 2–3%. Supraglacial lakes accounted for 20% of lakes by number in 2016–2019, though they only contributed to 3% of the total area. Conversely, moraine-dammed lakes composed 41% of all lakes yet contributed to 79% of the total area.
 
-![Time evolution of ice-marginal lakes in terms of (a) unscaled number of lakes, (b) unscaled lake area, (c) number of lakes scaled by total number of lakes in that timestep (percent), and (d) lake area scaled by the total lake area in that timestep (percent). Lakes are colored by lake dam type (legend between panels a and b). Bar widths correspond to imagery time intervals.](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/f04.jpg)
+<center>
+
+![Time evolution of ice-marginal lakes in terms of (a) unscaled number of lakes, (b) unscaled lake area, (c) number of lakes scaled by total number of lakes in that timestep (percent), and (d) lake area scaled by the total lake area in that timestep (percent). Lakes are colored by lake dam type (legend between panels a and b). Bar widths correspond to imagery time intervals.](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/f04.jpg){width=75%}
+
+</center>
 
 Lake stability describes whether a lake is persistent, or if it formed or drained during any of the four time intervals used for analysis. Lakes that appear in all four time intervals (“persistent lakes”) dominate both the number and area of bedrock-, ice-, and moraine-dammed lakes (Fig. 5). Supraglacial lakes are the least stable, as this class is dominated by non-persistent lakes. Changes in the number of persistent lakes from interval to interval is due to lakes either splitting or merging. The rate of formation of new bedrock and moraine-dammed lakes appears relatively constant over time, with ~10–30 new lakes of each dam type first appearing in each time interval.
 
@@ -18,7 +22,11 @@ Ice-dammed lakes are the only dam type with decreasing number and area, losing 6
 
 Lake frequency, dam type, and area change distribution varies with lake area (Fig. 6). The majority of lakes (77%) in the region are less than 1 km^2^, but collectively constitute only 9% of total lake area . Lakes greater than 1km^2^ thus constitute >90% of the total lake area and are dominated (69%) by moraine dams. The lake area change distribution by lake area from 1984–1988 to 2016–2019 closely reflects the total lake area distribution, with lakes greater than 1 km^2^ experiencing 94% of the total lake area change. In particular, there are 19 lakes (17 moraine-dammed, one bedrock-dammed, and one ice-dammed; see Table S1), each with individual areas greater than 10 km^2^, that constitute  ~60% of the total lake area and area. Of these 19 lakes, 14 occupy piedmont lobe depressions (defined here as a basin which is not constrained by valley walls), and about half are found within a coastal plain environment, with four lakes located within 2 m of sea level. Lake basin geometry and elevation have previously been linked to lake area change in Alaska, with low elevation lakes growing the most rapidly (Field et al., 2021). Excluding lakes greater than 10 km^2^, the total lake area in the Alaska region grew by 42% (compared to the 59% area increase when considering all lakes).
 
-![Distribution of lake area frequency in 2016–2019 by lake area (colored by dam type; a) and cumulative distribution function of total lake number, total lake area, and total lake area change (1984–1988 to 2016–2019; b). Note that the x-axis is logarithmic.](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/f06.jpg)
+<center>
+
+![Distribution of lake area frequency in 2016–2019 by lake area (colored by dam type; a) and cumulative distribution function of total lake number, total lake area, and total lake area change (1984–1988 to 2016–2019; b). Note that the x-axis is logarithmic.](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/f06.jpg){width=75%}
+
+</center>
 
 ## Individual lake area evolution
 
@@ -29,6 +37,19 @@ From 1984–1988 to 2016–2019, 791 distinct lakes were identified, 667 of whic
 The median area change for lakes of all dam types with detectable change (n = 344) is 0.05 km^2^ between 1984–1988 and 2016–2019 (Fig. 7). Considering only lakes with detectable change, the median change for moraine-dammed lakes (n = 166) is 0.13 km^2^, ice-dammed lakes (n = 42) is –0.06 km^2^, supraglacial lakes (n = 93) is 0.03 km^2^, and bedrock-dammed lakes (n = 46) is 0.02 km^2^. Median change values remain relatively stable even when lakes > 10 km^2^ are excluded from analysis (Fig. S6). 
 
 Proglacial lakes (moraine- and bedrock-dammed) experienced the largest median detectable change (0.14 km^2^), while ice-dammed lakes are the only dam type to experience negative median detectable change (–0.06 km^2^; Table 2; Fig. S7). Unconnected and detached lakes have a median change of 0.02 km^2^ for lakes with a detectable change. Proglacial moraine-dammed lakes have a wider distribution and higher median change than detached or unconnected moraine-dammed lakes (Table 2). Proglacial moraine-dammed lakes also have a wider distribution and higher median change than proglacial bedrock-dammed lakes. 
+
+<br>
+
+```{r tab2, out.width='100%', fig.asp=.75, fig.align='center',  echo=FALSE, warning=FALSE}
+library(kableExtra)
+tab2 <- read.csv("C:/Users/Bri/Documents/CSU/EnvDataScience2022/bookdown-demo/images/bookdownTable2.csv")
+colnames(tab2) <- c("Dam Type", "Location", "1984-1988","1997-2001", "2007-2011", "2016-2019", "Change 1980s to 2010s", "Median Area", "Area Range", "Med change 1980s to 2010s")
+
+tab2 %>% kable("html", align=c("llcccccccc"), caption = 'Dataset and the resolution of the dataset used for each time step.', booktabs = TRUE) %>%  kable_styling(font_size = 10, position = "center")
+
+```
+
+<br>
 
 Rate of area change (km^2^ per decade) follows a similar distribution as absolute area change (Fig. S8). The median change rate for lakes of all dam types with detectable change (n = 344) is 0.02 km^2^ per decade. When considering all lakes within each dam type, moraine-dammed lakes are the only dam type with a change rate greater than zero (0.05 km^2^ per decade). Supraglacial and bedrock-dammed lakes experience very small changes on a decadal scale, with a median change rate of 0 for all lakes as well as the subset of detectable lakes. Ice-dammed lakes with detectable change experienced a median change rate of –0.02 km^2^ per decade.
 

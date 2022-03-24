@@ -1,7 +1,7 @@
 --- 
-title: "Glacial lakes in Alaska"
-author: "Bri Rick"
-date: "`r Sys.Date()`"
+title: ""
+#author: "Brianna Rick"
+#date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -11,10 +11,34 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "This is a compilation of research looking at the changes in glacial lakes over time in Alaska, and drainage events from ice-dammed lakes from 1985 to 2020."
 ---
+# Article Information
+
+<font size = "5"> **Dam type and lake position characterize ice-marginal lake area change in Alaska and NW Canada between 1984 and 2019** </font>
+
+<br>
+**Brianna Rick^1^, Daniel McGrath^1^, William Armstrong^2^, Scott W. McCoy^3^**
+
+<br>
+
+
+<font size = "2">^1^Department of Geosciences, Colorado State University, Fort Collins, CO 80523, USA
+
+^2^Department of Geological and Environmental Sciences, Appalachian State University, Boone, NC 28607, USA
+
+^3^Department of Geological Sciences and Engineering, University of Nevada, Reno, NV 89557, USA</font>
+
+<br>
+*Correspondence to:* Brianna Rick (brianna.rick@colostate.edu)
+
+<br>
+
+**How to cite:**
+
+Rick, B., McGrath, D., Armstrong, W., and McCoy, S. W.: Dam type and lake location characterize ice-marginal lake area change in Alaska and NW Canada between 1984 and 2019, The Cryosphere, 16, 297–314, https://doi.org/10.5194/tc-16-297-2022, 2022.
 
 # Abstract
 
-Ice-marginal lakes impact glacier mass balance, water resources, and ecosystem dynamics, and can produce catastrophic glacial lake outburst floods (GLOFs). Multitemporal inventories of ice-marginal lakes are a critical first step in understanding the drivers of historic change, predicting future lake evolution, and assessing GLOF hazards. Here, we use Landsat-era satellite imagery and supervised classification to semi-automatically delineate lake outlines for four ~5 year time periods between 1984 and 2019 in Alaska and northwest Canada. Overall, ice-marginal lakes in the region have grown in total number (+183 lakes, 38% increase) and area (+483 km2, 59% increase) between the time periods of 1984–1988 and 2016–2019, though 56% of inventoried lakes did not experience detectable change. Changes in lake numbers and area were notably unsteady and nonuniform. We demonstrate that lake area changes are connected to dam type (moraine, bedrock, ice, or supraglacial) and the spatial relationship to their source glacier (proglacial, detached, unconnected, ice, or supraglacial), with important differences in lake behavior between the sub-groups. In strong contrast to all other dam types, ice-dammed lakes decreased in number (–6, 9% decrease) and area (–51 km2, 40% decrease), while moraine-dammed lakes increased (+56, 26% and +479 km2, 87% for number and area, respectively), a faster rate than the average when considering all dam types together. Proglacial lakes experienced the largest area changes and rate of change out of any lake position throughout the period of study, and moraine-dammed lakes which experienced the largest increases are associated with clean-ice glaciers (<19% debris cover). By tracking individual lakes through time and categorizing lakes by dam type, subregion, and location, we are able to detect trends that would otherwise be obscured if these characteristics were not considered. This work highlights the importance of such lake characterization when performing ice-marginal lake inventories, and provides insight into the physical processes driving recent ice-marginal lake evolution.  
+Ice-marginal lakes impact glacier mass balance, water resources, and ecosystem dynamics, and can produce catastrophic glacial lake outburst floods (GLOFs). Multitemporal inventories of ice-marginal lakes are a critical first step in understanding the drivers of historic change, predicting future lake evolution, and assessing GLOF hazards. Here, we use Landsat-era satellite imagery and supervised classification to semi-automatically delineate lake outlines for four ~5 year time periods between 1984 and 2019 in Alaska and northwest Canada. Overall, ice-marginal lakes in the region have grown in total number (+183 lakes, 38% increase) and area (+483 km^2^, 59% increase) between the time periods of 1984–1988 and 2016–2019, though 56% of inventoried lakes did not experience detectable change. Changes in lake numbers and area were notably unsteady and nonuniform. We demonstrate that lake area changes are connected to dam type (moraine, bedrock, ice, or supraglacial) and the spatial relationship to their source glacier (proglacial, detached, unconnected, ice, or supraglacial), with important differences in lake behavior between the sub-groups. In strong contrast to all other dam types, ice-dammed lakes decreased in number (–6, 9% decrease) and area (–51 km^2^, 40% decrease), while moraine-dammed lakes increased (+56, 26% and +479 km^2^, 87% for number and area, respectively), a faster rate than the average when considering all dam types together. Proglacial lakes experienced the largest area changes and rate of change out of any lake position throughout the period of study, and moraine-dammed lakes which experienced the largest increases are associated with clean-ice glaciers (<19% debris cover). By tracking individual lakes through time and categorizing lakes by dam type, subregion, and location, we are able to detect trends that would otherwise be obscured if these characteristics were not considered. This work highlights the importance of such lake characterization when performing ice-marginal lake inventories, and provides insight into the physical processes driving recent ice-marginal lake evolution.  <br>
 
 ```{r eval=FALSE, include=FALSE}
 install.packages("bookdown")
@@ -22,7 +46,8 @@ install.packages("bookdown")
 # devtools::install_github("rstudio/bookdown")
 ```
 
-![Distribution of glaciers as mapped by the Randolph Glacier Inventory (RGI Consortium, 2017) and subregions used to separate glaciated areas in Alaska and NW Canada (basemap provided by ESRI, 2021). Total glacier area (km2) and percent debris cover (percent of glacier surface covered by debris; Herreid and Pellicciotti, 2020) are displayed for each subregion.](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/f01.jpg)
+
+![Distribution of glaciers as mapped by the Randolph Glacier Inventory (RGI Consortium, 2017) and subregions used to separate glaciated areas in Alaska and NW Canada (basemap provided by ESRI, 2021). Total glacier area (km^2^) and percent debris cover (percent of glacier surface covered by debris; Herreid and Pellicciotti, 2020) are displayed for each subregion.](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/f01.jpg)
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
@@ -30,5 +55,4 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 
-#knitr::include_graphics("C:/Users/Bri/Documents/CSU/Dissertation/TCFigures/f01.jpg")
 ```
