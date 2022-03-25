@@ -1,4 +1,4 @@
-# Methods {#emthods}
+# Methods {#methods}
 
 ## Imagery and datasets
 
