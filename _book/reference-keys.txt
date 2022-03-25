@@ -4,7 +4,7 @@ article-information
 abstract
 introduction
 study-aims
-emthods
+methods
 imagery-and-datasets
 generating-lake-inventories-1984-2019
 lake-characteristics
@@ -27,4 +27,3 @@ feedbacks-on-glacier-mass-balance
 future-change-in-ice-marginal-lakes
 inventory-challenges
 conclusions
-methods
