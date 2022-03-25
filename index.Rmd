@@ -49,7 +49,7 @@ install.packages("bookdown")
 ```
 
 
-![Distribution of glacial lakes colored by dam type, with regional summaries of total glacier area, number of lakes, total lake area, and percent debris cover. ](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/mapoverview.jpg)
+![Distribution of glacial lakes colored by dam type, with regional summaries of total glacier area, number of lakes, total lake area, and percent debris cover. ](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\docs\images/mapoverview.jpg)
 
 <br>
 

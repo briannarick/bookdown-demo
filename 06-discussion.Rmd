@@ -11,7 +11,7 @@ Lake position and dam type, which are often linked, provide a simple, physically
 <br>
 <center>
 
-![Percent glacier debris cover vs lake area change (km^2^) for lakes associated with glaciers > 2 km^2^. Each dot represents an individual lake. Dashed line is at 19%, above which is considered debris-covered ice and below is considered clean ice (Brun et al., 2019).](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/f09.jpg){width=75%}
+![Percent glacier debris cover vs lake area change (km^2^) for lakes associated with glaciers > 2 km^2^. Each dot represents an individual lake. Dashed line is at 19%, above which is considered debris-covered ice and below is considered clean ice (Brun et al., 2019).](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\docs\images/f09.jpg){width=75%}
 
 </center></br>
 
@@ -19,7 +19,7 @@ Ice-dammed lakes are primarily located next to clean-ice glaciers (65%), with la
 
 <br>
 
-![Histogram of number of lakes and associated glacier area, separated by dam type (a) and histogram showing number of lakes within each hypsometric index (HI) bin, separated by dam type (b). Hypsometric index was calculated by McGrath et al. (2017). HI values greater than 1 indicate a bottom heavy glacier, HI values less than –1 indicate a top heavy glacier. Note the logarithmic x-axis scales. ](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/f10.jpg)
+![Histogram of number of lakes and associated glacier area, separated by dam type (a) and histogram showing number of lakes within each hypsometric index (HI) bin, separated by dam type (b). Hypsometric index was calculated by McGrath et al. (2017). HI values greater than 1 indicate a bottom heavy glacier, HI values less than –1 indicate a top heavy glacier. Note the logarithmic x-axis scales. ](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\docs\images/f10.jpg)
 
 </br>
 
@@ -41,7 +41,7 @@ Rate of lake area change (km^2^ per decade) through time indicates whether ice-m
 
 <br>
 
-![Median rate of area change between each time step, categorized by dam type (a) and topological position (b).](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\images/f11.jpg)
+![Median rate of area change between each time step, categorized by dam type (a) and topological position (b).](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\docs\images/f11.jpg)
 
 </br>
 
