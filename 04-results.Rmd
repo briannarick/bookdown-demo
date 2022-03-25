@@ -7,7 +7,7 @@ The overall number of lakes in the Alaska region increased from 484 in 1984–19
 <br>
 <center>
 
-![Time evolution of ice-marginal lakes in terms of (a) unscaled number of lakes, (b) unscaled lake area, (c) number of lakes scaled by total number of lakes in that timestep (percent), and (d) lake area scaled by the total lake area in that timestep (percent). Lakes are colored by lake dam type (legend between panels a and b). Bar widths correspond to imagery time intervals.](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\docs\images/f04.jpg){width=75%}
+![Time evolution of ice-marginal lakes in terms of (a) unscaled number of lakes, (b) unscaled lake area, (c) number of lakes scaled by total number of lakes in that timestep (percent), and (d) lake area scaled by the total lake area in that timestep (percent). Lakes are colored by lake dam type (legend between panels a and b). Bar widths correspond to imagery time intervals.](.\images/f04.jpg){width=75%}
 
 </center></br>
 
@@ -15,7 +15,7 @@ Lake stability describes whether a lake is persistent, or if it formed or draine
 
 <br>
 
-![Number of lakes (a) and total area (b) of each dam type through time. The number of lakes in blue indicates the total number of lakes in that time period that were not present in 1984–1988; the number of lakes in red indicates the number of lakes present in that time period which drain in a subsequent time period. Light red indicates lakes which form after 1984–1988 but drain before 2016–2019. Bar widths correspond to imagery time intervals. ](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\docs\images/f05.jpg)
+![Number of lakes (a) and total area (b) of each dam type through time. The number of lakes in blue indicates the total number of lakes in that time period that were not present in 1984–1988; the number of lakes in red indicates the number of lakes present in that time period which drain in a subsequent time period. Light red indicates lakes which form after 1984–1988 but drain before 2016–2019. Bar widths correspond to imagery time intervals. ](.\images/f05.jpg)
 
 </br>
 
@@ -30,7 +30,7 @@ Lake frequency, dam type, and area change distribution varies with lake area (Fi
 <br>
 <center>
 
-![Distribution of lake area frequency in 2016–2019 by lake area (colored by dam type; a) and cumulative distribution function of total lake number, total lake area, and total lake area change (1984–1988 to 2016–2019; b). Note that the x-axis is logarithmic.](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\docs\images/f06.jpg){width=75%}
+![Distribution of lake area frequency in 2016–2019 by lake area (colored by dam type; a) and cumulative distribution function of total lake number, total lake area, and total lake area change (1984–1988 to 2016–2019; b). Note that the x-axis is logarithmic.](.\images/f06.jpg){width=75%}
 
 </center></br>
 
@@ -40,7 +40,7 @@ From 1984–1988 to 2016–2019, 791 distinct lakes were identified, 667 of whic
 
 <br>
 
-![Smoothed density distribution (normalized to 1 for each dam type) of absolute lake area change for all lakes (dark curves) compared to that for only lakes with detectable change (light curves) for each dam type, with number of lakes (n) and median lake area change (M).  Note that the x-axis has been limited to –2 and 2 km^2^.](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\docs\images/f07.jpg)
+![Smoothed density distribution (normalized to 1 for each dam type) of absolute lake area change for all lakes (dark curves) compared to that for only lakes with detectable change (light curves) for each dam type, with number of lakes (n) and median lake area change (M).  Note that the x-axis has been limited to –2 and 2 km^2^.](.\images/f07.jpg)
 
 </br>
 
@@ -69,7 +69,7 @@ Distribution of lake dam type and total lake area varies spatially by subregion 
 
 <br>
 
-![Dam type distribution (spatial, frequency, and total area) for each Alaska subregion. Note: Brooks Range not pictured on map; see Fig. 1. Basemap provided by ESRI, 2021.](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\docs\images/f08.jpg)
+![Dam type distribution (spatial, frequency, and total area) for each Alaska subregion. Note: Brooks Range not pictured on map; see Fig. 1. Basemap provided by ESRI, 2021.](.\images/f08.jpg)
 
 </br>
 

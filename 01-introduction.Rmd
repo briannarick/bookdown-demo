@@ -10,7 +10,7 @@ Alaska’s large glacier extent (86,723 km^2^; second largest area outside the i
 
 <br>
 
-![Distribution of glaciers as mapped by the Randolph Glacier Inventory (RGI Consortium, 2017) and subregions used to separate glaciated areas in Alaska and NW Canada (basemap provided by ESRI, 2021). Total glacier area (km^2^) and percent debris cover (percent of glacier surface covered by debris; Herreid and Pellicciotti, 2020) are displayed for each subregion.](/Users\Bri\Documents\CSU\EnvDataScience2022\bookdown-demo\docs\images/f01.jpg)
+![Distribution of glaciers as mapped by the Randolph Glacier Inventory (RGI Consortium, 2017) and subregions used to separate glaciated areas in Alaska and NW Canada (basemap provided by ESRI, 2021). Total glacier area (km^2^) and percent debris cover (percent of glacier surface covered by debris; Herreid and Pellicciotti, 2020) are displayed for each subregion.](.\images/f01.jpg)
 
 </br>
 
